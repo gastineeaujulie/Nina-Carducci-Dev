@@ -1,3 +1,4 @@
+/** Body and Global Styles **/
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -6,6 +7,8 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+/**Header Styles**/
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -40,8 +43,10 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
+/** Main Styles **/
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -68,8 +73,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
-
+	width: 427px;
+	height: 427px;
 }
 #about-me {
 	flex: 2
