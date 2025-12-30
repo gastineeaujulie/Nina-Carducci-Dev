@@ -157,17 +157,16 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
-	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
-.quote__text {
-	font-family: Spectral;
+.quote__text p {
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2rem;
+	line-height: 1.4;
 }
 .quote__author {
 	font-family: Spectral;
