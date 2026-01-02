@@ -47,11 +47,14 @@ body {
 }
 
 /** Main Styles **/
+
+/** Carousel Styles **/
 .carousel-item img.d-block.w-100 {
 	width: 1521px;
-	height: 704px;
+	height: auto;
 }
 
+/** About Me Section Styles **/
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -102,6 +105,7 @@ body {
 	font-size: 14px;
 }
 
+/** Gallery Section Styles **/
 #gallery {
 	min-height: 100vh;
 }
@@ -115,14 +119,16 @@ body {
 	justify-content: center;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link{
 	color: #fff;
-	background-color: #2a5032;
-	border-radius:0 ;
+	background-color: #803707;
+	border-radius: 20px;
+	cursor: pointer;
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 
 .item-column {
@@ -149,13 +155,14 @@ body {
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
-	border-radius: 00%;
+	border-radius: 10%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	font-size: 24px;
 }
 
+/** Quote Styles **/
 .quote {
 	width: 70%;
 	margin: auto;
@@ -174,6 +181,7 @@ body {
 	font-size: 22px;
 }
 
+/** Services Section Styles **/
 #services {
 	margin: auto;
 	background-color: #A8D5D8 ;
@@ -209,6 +217,7 @@ body {
 	z-index: 1;
 }
 
+/** Contact Section Styles **/
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -267,6 +276,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/** Responsive Styles **/
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
