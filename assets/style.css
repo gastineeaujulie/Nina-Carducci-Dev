@@ -271,6 +271,20 @@ form textarea {
 	margin-bottom: 20px;
 }
 
+.contacts-info {
+	margin-left: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 18px;
+	margin-top: 3em;
+} 
+
+.contacts-info a {
+	text-decoration: underline;
+	color: rgb(13, 63, 24);
+}
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
