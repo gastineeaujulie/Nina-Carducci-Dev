@@ -24,42 +24,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
   	</noscript>
 	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Photographer",
-			"name": "Nina Carducci",
-			"image": "https://gastineeaujulie.github.io/Nina-Carducci-Dev/assets/images/nina-compressed.webp",
-			"jobTitle": "Photographe professionnelle",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "68 avenue Alsace-Lorraine",
-				"addressLocality": "Bordeaux",
-				"postalCode": "33200",
-				"addressCountry": "France"
-			},
-			"areaServed": {
-				"@type": "AdministrativeArea",
-				"name": "Bordeaux et Île-de-France"
-			},
-			"priceRange": "€€€",
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-			},
-			"telephone": "+33556677889",
-			"url": "https://gastineeaujulie.github.io/Nina-Carducci-Dev/",
-			"sameAs": [
-				"https://www.instagram.com/ninacarducci.photo/?hl=fr"
-			]
-		}
+	{
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		"@id": "https://gastineeaujulie.github.io/Nina-Carducci-Dev/",
+		"name": "Nina Carducci",
+		"image": "https://gastineeaujulie.github.io/Nina-Carducci-Dev/assets/images/nina-compressed.webp",
+		"description": "Photographe professionnelle à Bordeaux spécialisée en portraits, mariages, événements d'entreprise et concerts.",
+		"jobTitle": "Photographe professionnelle",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		},
+		"areaServed": {
+			"@type": "AdministrativeArea",
+			"name": "Bordeaux et Île-de-France"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday","Tuesday","Wednesday","Thursday","Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		},
+		"telephone": "+33556677889",
+		"priceRange": "€€€",
+		"url": "https://gastineeaujulie.github.io/Nina-Carducci-Dev/",
+		"sameAs": [
+			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
+		]
+	}
 	</script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -210,17 +208,17 @@
 				<img src="./assets/images/camera-compressed.webp" alt="image illustration appareil photo">
 			</div>
 		</div>
-		<address itemscope itemtype="https://schema.org/Photographer" class="contacts-info">
-			<p><strong itemprop="name">Nina Carducci</strong></p>
-			<p itemprop="jobTitle">Photographe professionnelle</p>
-			<p itemprop="address" itemscope itemtype="https://schema.org/PostalAdress">
-				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span><br>
-				<span itemprop="postalCode">33200</span>
-				<span itemprop="addressLocality">Bordeaux</span>
+		<address class="contacts-info">
+			<p><strong>Nina Carducci</strong></p>
+			<p>Photographe professionnelle</p>
+			<p>
+			68 avenue Alsace-Lorraine</span><br>
+			33200 Bordeaux</br>
+			France
 			</p>
-			<p>Téléphone : <a href="tel:+33556677889" itemprop="telephone">05.56.67.78.89</a></p>
+			<p>Téléphone : <a href="tel:+33556677889">05.56.67.78.89</span></p>
 			<p class="opening-hours">
-				<time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Lundi au Vendredi: 10h - 19h</time>
+			Lundi au Vendredi: 10h - 19h
 			</p>
 		</address>
 	</section>
