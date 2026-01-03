@@ -121,7 +121,7 @@ body {
 
 .nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link{
 	color: #fff;
-	background-color: #803707;
+	background-color: #a05c04;
 	border-radius: 20px;
 	cursor: pointer;
 }
