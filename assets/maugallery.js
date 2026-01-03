@@ -150,7 +150,8 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          //Julie, modification index pour lightbox
+          index = i - 1;
         }
       });
       next =
@@ -163,6 +164,7 @@
       $("img.gallery-item").each(function() {
         if ($(this).attr("src") === $(".lightboxImage").attr("src")) {
           activeImage = $(this);
+          console.log("activeImage", activeImage);
         }
       });
       let activeTag = $(".tags-bar span.active-tag").data("images-toggle");
@@ -189,7 +191,8 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i;
+          //Julie, modification index pour lightbox
+          index = i + 1;
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
